@@ -1,0 +1,14 @@
+package REKURSIA;
+
+public class Test { // Рекурсія - визов метода в самом методе
+
+	public static void main(String[] args) {
+		someMethod();
+	
+	}
+	
+	private static void someMethod() {
+		System.out.println("Hello");
+	}
+
+}

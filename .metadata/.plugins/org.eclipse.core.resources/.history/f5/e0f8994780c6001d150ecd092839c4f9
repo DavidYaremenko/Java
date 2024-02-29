@@ -1,0 +1,32 @@
+package REKURSIA;
+
+public class Test { // Рекурсія - визов метода в самом методе
+
+/*	public static void main(String[] args) {
+		someMethod();
+	
+	}
+	
+	private static void someMethod() {
+		System.out.println("Hello");
+		someMethod();
+	}
+*/
+	
+	public static void main(String[] args) {
+		
+		counter(3);
+	
+	}
+	
+	private static void counter(int n) {
+		
+		System.out.println(n);
+		
+		if (n == 0)
+			return;
+		
+		counter(n - 1);
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ENUM.Seasons&apos; to &apos;Season&apos;&#x0D;&#x0A;- Original project: &apos;JavaYoutube&apos;&#x0D;&#x0A;- Original element: &apos;ENUM.Seasons&apos;&#x0D;&#x0A;- Renamed element: &apos;ENUM.Season&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Seasons&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ENUM{Seasons.java[Seasons" matchStrategy="1" name="Season" qualified="false" references="true" similarDeclarations="false" stamp="1679231629258" textual="false" version="1.0"/>
+</session>

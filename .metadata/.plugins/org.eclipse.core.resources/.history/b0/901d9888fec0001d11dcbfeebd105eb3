@@ -1,0 +1,22 @@
+package EqualsAndStringPool;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Animal animal = new Animal(1);
+		Animal animal2 = new Animal(2);
+		
+		System.out.println(animal == animal2);
+
+	}
+
+}
+
+class Animal {
+	private int id;
+	
+	public Animal(int id) {
+		this.id = id; 
+	}
+}
